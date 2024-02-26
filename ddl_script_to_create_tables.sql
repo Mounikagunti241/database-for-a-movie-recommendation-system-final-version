@@ -1,3 +1,5 @@
+---ddl to create tables requires for movie_data base----
+
 create table Cast(
     Cast_Id number(10) constraint Cast_Id_pk primary key ,
     person_Name varchar(30) not null,
